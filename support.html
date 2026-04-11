@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LoRabbit Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #111111;
+      --card: #1b1b1b;
+      --text: #f4f4f4;
+      --muted: #b8b8b8;
+      --line: #313131;
+      --link: #8ec5ff;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f5f5f7;
+        --card: #ffffff;
+        --text: #1d1d1f;
+        --muted: #5f6368;
+        --line: #d7d7dc;
+        --link: #0b57d0;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { margin-top: 0; font-size: 2rem; }
+    h2 { margin-top: 0; font-size: 1.35rem; }
+    h3 { margin-top: 1.6rem; font-size: 1rem; }
+    p, li { font-size: 0.98rem; }
+    .meta { color: var(--muted); margin-bottom: 1.2rem; }
+    a { color: var(--link); }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>LoRabbit Support</h1>
+      <p class="meta">Last updated: 2026-04-11</p>
+      <p><strong>Repository:</strong> <a href="https://github.com/Facta-Leopard/LoRabbit">https://github.com/Facta-Leopard/LoRabbit</a><br>
+      <strong>Privacy Policy:</strong> <a href="privacy.html">privacy.html</a></p>
+
+      <h2>English</h2>
+
+      <h3>1. Public support paths</h3>
+      <ul>
+        <li>Project repository: <a href="https://github.com/Facta-Leopard/LoRabbit">https://github.com/Facta-Leopard/LoRabbit</a></li>
+        <li>Support email: <a href="mailto:shteosis@gmail.com">shteosis@gmail.com</a></li>
+        <li>Issue tracker: <a href="https://github.com/Facta-Leopard/LoRabbit/issues">https://github.com/Facta-Leopard/LoRabbit/issues</a></li>
+        <li>Discussions: <a href="https://github.com/Facta-Leopard/LoRabbit/discussions">https://github.com/Facta-Leopard/LoRabbit/discussions</a></li>
+        <li>Privacy policy: <a href="privacy.html">privacy.html</a></li>
+      </ul>
+      <p>If Issues or Discussions are enabled in the repository, those are the primary public support paths for the current public build.</p>
+
+      <h3>2. Before requesting support</h3>
+      <p>When possible, include the following:</p>
+      <ul>
+        <li>compatibility report</li>
+        <li>preflight summary</li>
+        <li>training overview</li>
+        <li>run log</li>
+        <li>macOS version</li>
+        <li>Apple Silicon device model</li>
+        <li>selected model format, such as MLX-ready directory, safetensors-based directory, or GGUF source</li>
+        <li>whether the active workspace is the default workspace or a custom workspace</li>
+      </ul>
+      <p>This helps distinguish model-format issues, workspace-access issues, dataset-preprocessing issues, and training-memory issues.</p>
+
+      <h3>3. What to describe in a support request</h3>
+      <ul>
+        <li>what you selected as the model input</li>
+        <li>what you selected as the dataset input</li>
+        <li>whether the issue appears during model inspection, dataset build, preflight, training, or export</li>
+        <li>the exact warning or error message shown on screen</li>
+        <li>whether the problem is reproducible</li>
+      </ul>
+
+      <h3>4. Scope of support</h3>
+      <p>LoRabbit support documentation covers the current public build of the app itself.</p>
+      <p>It does not grant rights to third-party models, datasets, or documents, and it does not replace the license terms, model cards, or usage restrictions published by their original providers.</p>
+    </article>
+
+    <article>
+      <h2>한국어</h2>
+
+      <h3>1. 공개 지원 경로</h3>
+      <ul>
+        <li>프로젝트 저장소: <a href="https://github.com/Facta-Leopard/LoRabbit">https://github.com/Facta-Leopard/LoRabbit</a></li>
+        <li>지원 이메일: <a href="mailto:shteosis@gmail.com">shteosis@gmail.com</a></li>
+        <li>이슈 트래커: <a href="https://github.com/Facta-Leopard/LoRabbit/issues">https://github.com/Facta-Leopard/LoRabbit/issues</a></li>
+        <li>디스커션: <a href="https://github.com/Facta-Leopard/LoRabbit/discussions">https://github.com/Facta-Leopard/LoRabbit/discussions</a></li>
+        <li>개인정보처리방침: <a href="privacy.html">privacy.html</a></li>
+      </ul>
+      <p>저장소에서 Issues 또는 Discussions가 활성화되어 있다면, 현재 공개 빌드 기준 기본 공개 지원 경로는 해당 채널입니다.</p>
+
+      <h3>2. 지원 요청 전에 준비하면 좋은 정보</h3>
+      <p>가능하면 아래 정보를 함께 준비해 주세요.</p>
+      <ul>
+        <li>compatibility report</li>
+        <li>preflight summary</li>
+        <li>training overview</li>
+        <li>run log</li>
+        <li>macOS 버전</li>
+        <li>사용 중인 Apple Silicon 기기 모델</li>
+        <li>선택한 모델 형식 (예: MLX 준비 디렉터리, safetensors 기반 디렉터리, GGUF 소스)</li>
+        <li>현재 워크스페이스가 기본 워크스페이스인지 사용자 지정 워크스페이스인지</li>
+      </ul>
+      <p>이 정보가 있으면 모델 형식 문제인지, 워크스페이스 접근 문제인지, 데이터셋 전처리 문제인지, 학습 메모리 문제인지 더 빠르게 구분할 수 있습니다.</p>
+
+      <h3>3. 문의 시 함께 적어주면 좋은 내용</h3>
+      <ul>
+        <li>어떤 모델 입력을 선택했는지</li>
+        <li>어떤 데이터셋 입력을 선택했는지</li>
+        <li>문제가 모델 검사, 데이터셋 빌드, preflight, 학습, 내보내기 중 어디에서 발생했는지</li>
+        <li>화면에 표시된 정확한 경고 또는 오류 문구</li>
+        <li>문제가 다시 재현되는지 여부</li>
+      </ul>
+
+      <h3>4. 지원 범위</h3>
+      <p>LoRabbit 지원 문서는 현재 공개 빌드 기준의 앱 자체 동작을 다룹니다.</p>
+      <p>이 문서는 제3자 모델, 데이터셋, 문서에 대한 권리를 부여하지 않으며, 원 저작권자나 제공자가 공개한 라이선스, 모델 카드, 사용 제한을 대체하지 않습니다.</p>
+    </article>
+  </main>
+</body>
+</html>
